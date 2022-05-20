@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChallengeForm</title>
+    <link rel="stylesheet" href="Resgistrationstyles.css">
+</head>
+<body class="background">
+    <section class="registration">
+        <form class="width" autocomplete="on">
+            <h3 class="tittle">Registration Form</h4>
+            <label for="name">Full Name:</label>    
+            <input class="controls" type="text" id="name" placeholder="Insert your full name"><br><br>
+            
+            <label for="lastname">Username: </label>
+            <input class="controls" type="text" id="lastname" placeholder="Insert your username"><br><br>
+
+            <label for="email">Email Add:</label>
+            <input class="controls" type="email" id="email"  placeholder="example@email.com"><br><br>
+
+            <label for="password">Password:</label>
+            <input class="controls" type="password" id="password" placeholder="Password"><br><br>
+            
+            <label for="date">Date Of Birth:</label>
+            <input class="controls" type="date" id="date" name="Date of birth"><br><br>
+
+            <label  for="list">Country:</label>
+            <select class="controls" name="countries" id="countrylist">
+                <option value=" " selected> </option>
+                <option value="El Salvador">El Salvador</option>
+                <option value="Guatemala">Guatemala</option>
+                <option value="Cuba">Cuba</option>
+                <option value="Republica Dominicana">Republica Dominicana</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Peru">Peru</option>
+                <option value="Chile">Chile</option>
+                <option value="Venezuela">Venezuela</option>
+            </select><br><br>
+
+            <label for="Gender">Gender:
+            Man<input type="radio" id="Gender" name="Sex" value="Gender">
+            Woman<input type="radio" id="Gender" name="Sex" value="Gender">
+            </label>
+            <br><br>
+
+            <p>I agree with <a href="" target="_blank">Terms & Conditions</a></p>
+            <br>
+            <br>
+
+            <button class="button" type="button" onclick="alert('Thanks for signing up!')">Submit</button>
+
+        </form>
+    </section>
+</body>
+</html>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@100&display=swap');
+
+.bgi{
+    background-image: url(../Imagenes/BCK.jpg);
+    background-size: cover;
+}
+
+.main{
+    border-radius: 1px solid;
+    border-radius: 30px;
+    background-color: #061724;
+    font-family: 'Montserrat', sans-serif;
+    margin: 450px;
+    margin-top: 100px;
+    padding: 30px;
+    color: antiquewhite;
+}
+
+.tittle{
+    text-align: center;
+    text-transform: uppercase;
+}
